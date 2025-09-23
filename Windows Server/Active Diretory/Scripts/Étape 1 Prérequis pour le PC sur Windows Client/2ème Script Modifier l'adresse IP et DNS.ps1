@@ -1,4 +1,4 @@
-﻿##Etape 1 
+﻿##Etape 1 : N'oublie pas de changer le numéro de InterfaceIndex si besoin ! 
 $existingIP = Get-NetIPAddress -InterfaceIndex 10 -AddressFamily IPv4 | Where-Object { $_.IPAddress -eq "192.168.56.20" }
 
 if (-not $existingIP) {
@@ -8,7 +8,7 @@ if (-not $existingIP) {
     Write-Host "L'adresse IP 192.168.56.20 est déjà attribuée."
 }
 
-##Etape 2 : Mise en place du dns, rappel le dns est l'addrese de l'AD1
+##Etape 2 : Mise en place du dns, rappel le dns est l'addrese de l'AD1. N'oublie pas de changer le numéro de InterfaceIndex si besoin !
 
 $dnsServers = Get-DnsClientServerAddress -InterfaceIndex 10 | Select-Object -ExpandProperty ServerAddresses
 
@@ -19,6 +19,6 @@ if ($dnsServers -notcontains "192.168.56.21") {
     Write-Host "Le serveur DNS 192.168.56.21 est déjà configuré."
 }
 
-# #Étape 3 : Vérifier la configuration DNS
+# #Étape 3 : Vérifier la configuration DNS. N'oublie pas de changer le numéro de InterfaceIndex si besoin !
 Write-Host "Configuration DNS actuelle :"
 Get-DnsClientServerAddress -InterfaceIndex 10
