@@ -1,0 +1,16 @@
+# Détails du projet 
+- Projet réalisé sur VirtualBox avec des VM
+- Réaliser sur Windows Server 2022 et Windows 11
+- Réaliser en février 2025
+- Tous les scripts sont placés dans leur dossier, par ordre chronologique. 
+- Pour savoir lequel exécuter à quel moment, il suffit de suivre la documentation. 
+- Le sujet demandé était le suivant : Rendre des scripts documentés pour réaliser les différentes étapes vues en cours : 
+	- Création AD 
+	- Ajout d'un AD à un domaine 
+	- Création d'OU 
+	- Création de Groupe 
+	- Création d'utilisateur 
+	- Création d'un Partage Réseau 
+	- Ajout des règles de sécurité 
+	- Regrouper les scripts possibles avec pour objectif de les rendre idempotent.
+	- Le tout en PowerShell sauf pour les règles de sécurité
