@@ -13,6 +13,6 @@
 	- Création de Groupe 
 	- Création d'utilisateur 
 	- Création d'un Partage Réseau 
-	- Ajout des règles de sécurité 
+	- Ajout des règles de sécurité (Faire en clique, pas par des scripts, c'est plus rapide.)
 	- Regrouper les scripts possibles avec pour objectif de les rendre idempotent.
 	- Le tout en PowerShell sauf pour les règles de sécurité
