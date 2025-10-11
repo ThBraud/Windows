@@ -1,0 +1,2 @@
+# Informations 
+Le projet a été essentiellement réalisé sur des VM via VMWare ESXi. Avec Windows Server 2022 et Windows 10. Dans le dossier, il n'y a qu'un seul script PowerShell, il regroupe seulement les commandes utiles au pare-feu. Il est inutile de l'exécuter. C'était seulement pour avoir un rendu plus propre, et une possibilité pour ceux qui le voudraient de copier-coller directement. 
