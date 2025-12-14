@@ -3,7 +3,7 @@
   - *Je suis entrain de préparer une documentation/un tutoriel pour lancer des VM sur VirtualBox*
 - Réaliser sur Windows Server 2022 et Windows 11
 - Réaliser en février 2025
-  - Fonctionne toujours le **23/09/2025**
+  - Fonctionne toujours le **14/12/2025**
 - Tous les scripts sont placés dans leur dossier, par ordre chronologique. 
 - Pour savoir lequel exécuter à quel moment, il suffit de suivre la documentation. 
 - Le sujet demandé était le suivant : Rendre des scripts documentés pour réaliser les différentes étapes vues en cours : 
